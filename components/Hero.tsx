@@ -6,7 +6,7 @@ export function Hero() {
             {/* Background Image with Overlay */}
             <div 
                 className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-                style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80")' }}
+                style={{ backgroundImage: 'url("/hero-bg.jpg")' }}
             />
             {/* Gradient Overlay */}
             <div className="absolute inset-0 z-10 bg-gradient-to-br from-black/80 via-black/70 to-black/80" />
