@@ -38,14 +38,14 @@ export function Hero() {
                 </p>
 
                 {/* CTA Buttons */}
-                <div className="animate-in fade-in scale-in-95 duration-1000 delay-500 flex flex-col md:flex-row gap-4 mt-8">
-                    <Button className="bg-primary text-black hover:bg-white hover:text-black rounded-xl px-8 py-6 tracking-widest text-xs uppercase font-medium transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.3)]">
+                <div className="animate-in fade-in scale-in-95 duration-1000 delay-500 flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 sm:mt-8 w-full max-w-xs sm:max-w-none">
+                    <Button className="bg-primary text-black hover:bg-white hover:text-black rounded-xl px-6 py-5 sm:px-8 sm:py-6 tracking-widest text-xs uppercase font-medium transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.3)] w-full sm:w-auto">
                         Find Your Home
                     </Button>
-                    <Button className="border border-primary/50 text-white bg-primary/10 backdrop-blur-sm hover:bg-primary hover:text-black hover:border-primary rounded-xl px-8 py-6 tracking-widest text-xs uppercase font-medium transition-all duration-300">
+                    <Button className="border border-primary/50 text-white bg-primary/10 backdrop-blur-sm hover:bg-primary hover:text-black hover:border-primary rounded-xl px-6 py-5 sm:px-8 sm:py-6 tracking-widest text-xs uppercase font-medium transition-all duration-300 w-full sm:w-auto">
                         Join Our Brokerage
                     </Button>
-                    <Button className="border border-white/30 text-white bg-black/30 backdrop-blur-sm hover:bg-white hover:text-black rounded-xl px-8 py-6 tracking-widest text-xs uppercase font-medium transition-all duration-300">
+                    <Button className="border border-white/30 text-white bg-black/30 backdrop-blur-sm hover:bg-white hover:text-black rounded-xl px-6 py-5 sm:px-8 sm:py-6 tracking-widest text-xs uppercase font-medium transition-all duration-300 w-full sm:w-auto hidden sm:flex">
                         Book a Strategy Call
                     </Button>
                 </div>
